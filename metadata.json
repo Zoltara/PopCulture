@@ -1,0 +1,5 @@
+{
+  "name": "PopCulture Pal",
+  "description": "A fun, cartoonist-style app that collects your favorite books, movies, and music to recommend new entertainment gems using Gemini AI.",
+  "requestFramePermissions": []
+}
