@@ -92,9 +92,15 @@ const App: React.FC = () => {
     <div className="min-h-screen p-4 md:p-8 pb-24">
       <header className="mb-8 text-center max-w-2xl mx-auto">
         <div className="bg-white/90 p-4 rounded-2xl border-2 border-black shadow-hard inline-block backdrop-blur-sm">
-          <h1 className="text-4xl md:text-6xl font-black text-cartoon-dark drop-shadow-[2px_2px_0_rgba(255,217,61,1)] mb-1 tracking-tighter">
-            PopCulture Pal
-          </h1>
+          <div className="flex items-center justify-center gap-3 mb-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="#FFD93D" stroke="#000000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="drop-shadow-md">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
+              <path d="M6.5 17H20" />
+            </svg>
+            <h1 className="text-4xl md:text-6xl font-black text-cartoon-dark drop-shadow-[2px_2px_0_rgba(255,217,61,1)] tracking-tighter">
+              PopCulture Pal
+            </h1>
+          </div>
           <p className="text-md md:text-lg font-bold text-gray-800">
             Your Personal Media Assistant
           </p>
